@@ -1,0 +1,16 @@
+PackageIdentifier: ShotNotes.Writer
+PackageVersion: 0.1.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: shot-notes-writer\shot_notes_writer.exe
+    PortableCommandAlias: shot-notes-writer
+Dependencies:
+  PackageDependencies:
+    - PackageIdentifier: OliverBetz.ExifTool
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/shotnotes/support/releases/download/v0.1.0/shotnotes-writer-0.1.0-windows-x64.zip
+    InstallerSha256: 4A3066CC2F9F050287DA8F54A234A7E657DD199FC7709ED4F2EA5CDDAF5E7F8B
+ManifestType: installer
+ManifestVersion: 1.9.0
