@@ -1,0 +1,17 @@
+PackageIdentifier: ShotNotes.ShotNotes
+PackageVersion: 0.1.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: shotnotes.exe
+    PortableCommandAlias: shotnotes
+  - RelativeFilePath: shotnotes-c2pa.exe
+Dependencies:
+  PackageDependencies:
+    - PackageIdentifier: OliverBetz.ExifTool
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/shotnotes/support/releases/download/v0.1.0/shotnotes-0.1.0-windows-x64.zip
+    InstallerSha256: 781B0E2BCDCE1314D425321D725246A588E084969ABC453287FBEF9AEF6F61C6
+ManifestType: installer
+ManifestVersion: 1.9.0
